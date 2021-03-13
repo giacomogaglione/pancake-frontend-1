@@ -12,17 +12,6 @@ import EarnAssetCard from 'views/Home/components/EarnAssetCard'
 import WinCard from 'views/Home/components/WinCard'
 
 
-
-const newText = styled.div<TextProps>`
-  color: $"#fee967";
-  font-size: ${getFontSize};
-  font-weight: ${({ bold }) => (bold ? 600 : 400)};
-  line-height: 1.5;
-  ${({ textTransform }) => textTransform && `text-transform: ${textTransform};`}
-  ${space}
-  ${typography}
-`;
-
 const Hero = styled.div`
   align-items: center;
   background-image: url('/images/pan-bg-mobile.svg');
@@ -48,6 +37,7 @@ const Cards = styled(BaseLayout)`
   align-items: stretch;
   justify-content: stretch;
   margin-bottom: 32px;
+  color: #fee967;
 
   & > div {
     grid-column: span 6;
@@ -97,7 +87,7 @@ const Home: React.FC = () => {
         <Heading as="h1" size="xl" mb="24px" color="secondary">
           {TranslateString(576, 'PancakeSwap')}
         </Heading>
-        <newText>{TranslateString(578, 'The #1 ARM and yield farm on Binance Smart Chain.')}</newText>
+        <Text>{TranslateString(578, 'The #1 ARM and yield farm on Binance Smart Chain.')}</Text>
       </Hero>
       <div>
         <Cards>
