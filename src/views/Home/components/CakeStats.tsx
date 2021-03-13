@@ -30,19 +30,19 @@ const CakeStats = () => {
   return (
     <StyledCakeStats>
       <CardBody>
-        <Heading size="xl" mb="24px">
+        <Heading color="#fee967" size="xl" mb="24px">
           {TranslateString(534, 'Tempura Stats')}
         </Heading>
         <Row>
-          <Text fontSize="14px">{TranslateString(536, 'Total TEMPURA Supply')}</Text>
+          <Text color="#fee967" fontSize="14px">{TranslateString(536, 'Total TEMPURA Supply')}</Text>
           {cakeSupply && <CardValue fontSize="14px" value={cakeSupply} />}
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(538, 'Total TEMPURA Burned')}</Text>
+          <Text color="#fee967" fontSize="14px">{TranslateString(538, 'Total TEMPURA Burned')}</Text>
           <CardValue fontSize="14px" decimals={0} value={burnedBalance} />
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(540, 'New TEMPURA/block')}</Text>
+          <Text color="#fee967" fontSize="14px">{TranslateString(540, 'New TEMPURA/block')}</Text>
           <CardValue fontSize="14px" decimals={0} value={25} />
         </Row>
       </CardBody>

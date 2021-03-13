@@ -56,7 +56,7 @@ const FarmedStakingCard = () => {
   return (
     <StyledFarmStakingCard>
       <CardBody>
-        <Heading size="xl" mb="24px">
+        <Heading color="#fee967" size="xl" mb="24px">
           {TranslateString(542, 'Farms & Staking')}
         </Heading>
         <CardImage src="/images/cake.svg" alt="cake logo" width={64} height={64} />
@@ -75,6 +75,7 @@ const FarmedStakingCard = () => {
               disabled={balancesWithValue.length <= 0 || pendingTx}
               onClick={harvestAllFarms}
               width="100%"
+              color="#fee967"
             >
               {pendingTx
                 ? TranslateString(548, 'Collecting TEMPURA')
