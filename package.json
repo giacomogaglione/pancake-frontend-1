@@ -36,7 +36,7 @@
     "@crowdin/crowdin-api-client": "^1.10.4",
     "@ethersproject/abi": "^5.0.7",
     "@giacomogaglione/tempura-kit": "giacomogaglione/tempura-kit",
-    "@pancakeswap-libs/uikit": "^0.14.1",
+    "@pancakeswap-libs/uikit": "giacomogaglione/tempura-kit",
     "@reduxjs/toolkit": "^1.5.0",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
