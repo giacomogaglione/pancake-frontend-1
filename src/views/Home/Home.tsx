@@ -29,6 +29,7 @@ const lightColors: Colors = {
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
   }
+  };
 
 const Hero = styled.div`
   align-items: center;
