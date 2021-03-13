@@ -1726,10 +1726,9 @@
     "@ethersproject/properties" "^5.0.7"
     "@ethersproject/strings" "^5.0.8"
 
-"@giacomogaglione/tempura-kit@^0.14.4":
+"@giacomogaglione/tempura-kit@giacomogaglione/tempura-kit", "@pancakeswap-libs/uikit@giacomogaglione/tempura-kit":
   version "0.14.4"
-  resolved "https://registry.yarnpkg.com/@giacomogaglione/tempura-kit/-/tempura-kit-0.14.4.tgz#9b9308ac5d0154fdde56bbe85d80411071bd9087"
-  integrity sha512-eelDAofQohbbfhEWJlls7hPqgG1SkrO0DA1B6IJxz7BOGGB6GbNKJLnUkBETtEQIja5RX7B0czveaIywElCtuA==
+  resolved "https://codeload.github.com/giacomogaglione/tempura-kit/tar.gz/7511ad8eacc275960fe74a2049b28a00b505a15c"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
@@ -2017,17 +2016,6 @@
     eslint-plugin-jsx-a11y "^6.4.1"
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
-
-"@pancakeswap-libs/uikit@^0.14.1":
-  version "0.14.1"
-  resolved "https://registry.npmjs.org/@pancakeswap-libs/uikit/-/uikit-0.14.1.tgz"
-  integrity sha512-PknRl6qIXSCPPCTseTCEnzaXuW8dowAGUbus500IEZMOtl+hZu+D0g8s0tG6DRcwEIWF1RLmYIWJjuJHiKv8IQ==
-  dependencies:
-    "@types/lodash" "^4.14.162"
-    "@types/styled-system" "^5.1.10"
-    lodash "^4.17.20"
-    react-transition-group "^4.4.1"
-    styled-system "^5.1.5"
 
 "@pedrouid/iso-crypto@^1.0.0":
   version "1.1.0"
