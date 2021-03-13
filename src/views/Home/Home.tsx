@@ -11,9 +11,6 @@ import EarnAPYCard from 'views/Home/components/EarnAPYCard'
 import EarnAssetCard from 'views/Home/components/EarnAssetCard'
 import WinCard from 'views/Home/components/WinCard'
 
-theme.colors.text = "#fee967";
-
-
 const Hero = styled.div`
   align-items: center;
   background-image: url('/images/pan-bg-mobile.svg');
@@ -86,10 +83,10 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Hero>
-        <Heading as="h1" size="xl" mb="24px" color="secondary">
-          {TranslateString(576, 'PancakeSwap')}
+        <Heading as="h1" size="xl" mb="24px" color="#fee967">
+          {TranslateString(576, 'TempuraSwap')}
         </Heading>
-        <Text>{TranslateString(578, 'The #1 ARM and yield farm on Binance Smart Chain.')}</Text>
+        <Text color="#fee967">{TranslateString(578, 'The #1 ARM and yield farm on Binance Smart Chain.')}</Text>
       </Hero>
       <div>
         <Cards>
