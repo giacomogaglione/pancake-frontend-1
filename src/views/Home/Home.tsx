@@ -13,7 +13,7 @@ import WinCard from 'views/Home/components/WinCard'
 
 
 
-const Text = styled.div<TextProps>`
+const newText = styled.div<TextProps>`
   color: $"#fee967";
   font-size: ${getFontSize};
   font-weight: ${({ bold }) => (bold ? 600 : 400)};
@@ -97,7 +97,7 @@ const Home: React.FC = () => {
         <Heading as="h1" size="xl" mb="24px" color="secondary">
           {TranslateString(576, 'PancakeSwap')}
         </Heading>
-        <Text>{TranslateString(578, 'The #1 ARM and yield farm on Binance Smart Chain.')}</Text>
+        <newText>{TranslateString(578, 'The #1 ARM and yield farm on Binance Smart Chain.')}</newText>
       </Hero>
       <div>
         <Cards>
