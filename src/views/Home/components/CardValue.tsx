@@ -19,7 +19,7 @@ const CardValue: React.FC<CardValueProps> = ({
   lineHeight = '1',
   prefix = '',
   bold = true,
-  color = 'text',
+  color = '#fee967',
 }) => {
   const { countUp, update } = useCountUp({
     start: 0,
