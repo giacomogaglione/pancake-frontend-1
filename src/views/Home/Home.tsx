@@ -11,6 +11,8 @@ import EarnAPYCard from 'views/Home/components/EarnAPYCard'
 import EarnAssetCard from 'views/Home/components/EarnAssetCard'
 import WinCard from 'views/Home/components/WinCard'
 
+theme.colors.text = "#fee967";
+
 
 const Hero = styled.div`
   align-items: center;
