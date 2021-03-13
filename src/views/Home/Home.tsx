@@ -11,27 +11,17 @@ import EarnAPYCard from 'views/Home/components/EarnAPYCard'
 import EarnAssetCard from 'views/Home/components/EarnAssetCard'
 import WinCard from 'views/Home/components/WinCard'
 
-import { Colors } from "./types"; 
 
-const lightColors: Colors = {
-  ...baseColors,
-  ...brandColors,
-  background: "#FAF9FA",
-  backgroundDisabled: "#E9EAEB",
-  contrast: "#191326",
-  invertedContrast: "#FFFFFF",
-  input: "#eeeaf4",
-  inputSecondary: "#d7caec",
-  tertiary: "#EFF4F5",
-  text: "#fee967",
-  textDisabled: "#BDC2C4",
-  textSubtle: "#8f80ba",
-  borderColor: "#E9EAEB",
-  card: "#FFFFFF",
-  gradients: {
-    bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
-  }
-  };
+
+const Text = styled.div<TextProps>`
+  color: $"#fee967";
+  font-size: ${getFontSize};
+  font-weight: ${({ bold }) => (bold ? 600 : 400)};
+  line-height: 1.5;
+  ${({ textTransform }) => textTransform && `text-transform: ${textTransform};`}
+  ${space}
+  ${typography}
+`;
 
 const Hero = styled.div`
   align-items: center;
