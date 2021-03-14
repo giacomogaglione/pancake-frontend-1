@@ -35,7 +35,7 @@
     "@binance-chain/bsc-connector": "^1.0.0",
     "@crowdin/crowdin-api-client": "^1.10.4",
     "@ethersproject/abi": "^5.0.7",
-    "@giacomogaglione/tempy-uikit": "^0.0.3",
+    "@giacomogaglione/tempy-uikit": "^0.0.6",
     "@pancakeswap-libs/uikit": "^0.14.1",
     "@reduxjs/toolkit": "^1.5.0",
     "@types/react": "^17.0.2",
