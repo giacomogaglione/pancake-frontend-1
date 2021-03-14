@@ -1726,9 +1726,10 @@
     "@ethersproject/properties" "^5.0.7"
     "@ethersproject/strings" "^5.0.8"
 
-"@giacomogaglione/tempura-kit@giacomogaglione/tempura-kit":
-  version "0.14.4"
-  resolved "https://codeload.github.com/giacomogaglione/tempura-kit/tar.gz/7511ad8eacc275960fe74a2049b28a00b505a15c"
+"@giacomogaglione/tempy-uikit@^0.0.3":
+  version "0.0.3"
+  resolved "https://npm.pkg.github.com/download/@giacomogaglione/tempy-uikit/0.0.3/1b899cefcb368f0ec13edbc18b2fd90be160ae03f83d74fe591d85a4d6cb105b#38a37d774a39406a54fad75d764f10f710a2d5b9"
+  integrity sha512-9gSu7TGLEBdDiMAeVN1RCleEx5o8hHH6vrOh33sgCstDbuQ7PYvjjP2XctLu+xaRKF1D2hb8g/5qk+0K9cHIVA==
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
