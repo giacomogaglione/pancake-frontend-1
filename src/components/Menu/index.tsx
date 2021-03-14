@@ -17,7 +17,7 @@ const Menu = (props) => {
   const { profile } = useProfile()
 
   return (
-    <UikitMenu
+    <UikitMenu color="#FFFFFF"
       account={account}
       login={login}
       logout={logout}
