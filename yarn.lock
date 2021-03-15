@@ -1726,6 +1726,17 @@
     "@ethersproject/properties" "^5.0.7"
     "@ethersproject/strings" "^5.0.8"
 
+"@giacomogaglione/tempy-uikit@^0.0.6":
+  version "0.0.6"
+  resolved "https://npm.pkg.github.com/download/@giacomogaglione/tempy-uikit/0.0.6/963e446183783d91a0543f2be051266517909967843300ccfaa8df2b4e4c69ec#1f666d16aacdafcac1cf04946c2222b2faee3e9a"
+  integrity sha512-DYC33geA0nQK2iT6+NU3S0IOiB2Z95RA+4C9kMRCH/yWMAm8PDSPVcSSPgbq33CHn7k/TL4eIXb7sx10wTQq+w==
+  dependencies:
+    "@types/lodash" "^4.14.162"
+    "@types/styled-system" "^5.1.10"
+    lodash "^4.17.20"
+    react-transition-group "^4.4.1"
+    styled-system "^5.1.5"
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -2007,9 +2018,10 @@
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
 
-"@pancakeswap-libs/uikit@git://github.com/giacomogaglione/tempy-uikit.git":
-  version "0.0.6"
-  resolved "git://github.com/giacomogaglione/tempy-uikit.git#78c66e3d90e87e63ecda593b2838236923c1a656"
+"@pancakeswap-libs/uikit@^0.14.1":
+  version "0.14.1"
+  resolved "https://registry.yarnpkg.com/@pancakeswap-libs/uikit/-/uikit-0.14.1.tgz#8e42b80678da85d74d9075d49f617ed9171aaff6"
+  integrity sha512-PknRl6qIXSCPPCTseTCEnzaXuW8dowAGUbus500IEZMOtl+hZu+D0g8s0tG6DRcwEIWF1RLmYIWJjuJHiKv8IQ==
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
