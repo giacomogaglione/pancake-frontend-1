@@ -58,6 +58,7 @@ const Cards = styled(BaseLayout)`
 const CTACards = styled(BaseLayout)`
   align-items: start;
   margin-bottom: 32px;
+  width:100%;
 
   & > div {
     grid-column: span 6;
