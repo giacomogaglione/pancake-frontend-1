@@ -1,4 +1,0 @@
-npmScopes:
-  "giacomogaglione":
-    npmAlwaysAuth: true
-    npmRegistryServer: "https://npm.pkg.github.com"
