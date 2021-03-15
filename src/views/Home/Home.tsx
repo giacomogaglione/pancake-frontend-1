@@ -21,7 +21,7 @@ const Hero = styled.div`
   margin: auto;
   margin-bottom: 32px;
   padding-top: 116px;
-  text-align: center;
+  text-align: left;
 
   ${({ theme }) => theme.mediaQueries.lg} {
     background-image: url('/images/pan-bg2.svg'), url('/images/pan-bg.svg');
